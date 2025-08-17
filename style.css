@@ -1,0 +1,86 @@
+/* Reset */
+body, h1, h2, p, ul, li, table, form {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  background: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+header {
+  background: #d62828;
+  color: #fff;
+  padding: 10px 20px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.hero {
+  background: url('images/pizza-hero.jpg') center/cover no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+}
+.hero .btn {
+  display: inline-block;
+  background: #de9b52;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+.gallery .images, .gallery-preview .images {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.gallery .images img, .gallery-preview .images img {
+  max-width: 200px;
+  border-radius: 10px;
+}
+table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  margin: 0 auto;
+}
+button {
+  background: #ffc98f;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
