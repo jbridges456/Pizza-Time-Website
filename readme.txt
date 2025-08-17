@@ -1,7 +1,7 @@
-# PizzaBolt Website
+# Pizza Time Website
 
 ## Overview
-PizzaBolt is a responsive, multi-page pizza delivery website built with HTML5 and CSS3. It meets the technical and design requirements for the final project.
+Pizza Time is a responsive, multi-page pizza delivery website built with HTML5 and CSS3.
 
 ## Pages
 - **index.html** – Homepage
@@ -23,3 +23,4 @@ PizzaBolt is a responsive, multi-page pizza delivery website built with HTML5 an
 - External CSS and consistent layout
 - Meta tags, form, table, and images
 - Works in all browsers
+
